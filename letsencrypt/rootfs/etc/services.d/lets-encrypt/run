@@ -21,6 +21,8 @@ EAB_KID=$(bashio::config 'eab_kid')
 EAB_HMAC_KEY=$(bashio::config 'eab_hmac_key')
 
 if [ "${CHALLENGE}" == "dns" ]; then
+    bashio::log.info "Test Repo Matzi..."
+
     bashio::log.info "Selected DNS Provider: ${DNS_PROVIDER}"
 
     PROPAGATION_SECONDS=60
