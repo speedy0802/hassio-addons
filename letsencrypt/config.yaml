@@ -3,7 +3,7 @@ version: 5.2.3
 slug: letsencrypt
 name: Let's Encrypt
 description: Manage certificate from Let's Encrypt
-url: https://github.com/home-assistant/addons/tree/master/letsencrypt
+url: https://github.com/speedy0802/hassio-addons/blob/master/letsencrypt
 arch:
   - armhf
   - armv7
@@ -11,7 +11,7 @@ arch:
   - amd64
   - i386
 boot: manual
-image: homeassistant/{arch}-addon-letsencrypt
+image: speedy0802/{arch}-addon-letsencrypt
 init: false
 map:
   - ssl:rw
